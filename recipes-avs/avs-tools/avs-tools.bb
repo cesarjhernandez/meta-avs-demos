@@ -11,6 +11,8 @@ DEST_SCRIPTS_DIR ?= "/home/root/Alexa_SDK/Scripts"
 
 inherit systemd
 
+RDEPENDS_${PN} = "bash"
+
 SRC_URI = " \
 	file://cleanAVSEnv.sh \
 	file://setCredentials.sh \
