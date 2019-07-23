@@ -288,7 +288,7 @@ echo "" >> $BUILD_DIR/conf/local.conf
 
 echo "BBMASK +=\\" >> $BUILD_DIR/conf/local.conf
 echo "\"meta-avs-demos/recipes-bsp/u-boot\\" >> $BUILD_DIR/conf/local.conf
-echo "|meta-avs-demos/recipes-kernel/linux/linux-imx_4.9.%.bbappend\"" >> $BUILD_DIR/conf/local.conf
+echo "|meta-avs-demos/recipes-kernel/linux\"" >> $BUILD_DIR/conf/local.conf
 echo "" >> $BUILD_DIR/conf/local.conf
 
 
